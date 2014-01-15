@@ -1,0 +1,25 @@
+{
+  "name": "roman2decimal",
+  "version": "0.0.1",
+  "main": "index",
+  "author": "Pedro Tacla Yamada <tacla.yamada@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yamadapc/roman2decimal.git"
+  },
+
+  "scripts": {
+    "test": "grunt --verbose"
+  },
+
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-simple-mocha": "latest",
+    "grunt-contrib-watch": "~0.5.0",
+    "time-grunt": "~0.2.0",
+
+    "mocha": "latest",
+    "should": "latest"
+  }
+}
