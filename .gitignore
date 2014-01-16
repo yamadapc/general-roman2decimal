@@ -1,2 +1,11 @@
 node_modules/
-example/creds.json
+pom.xml
+pom.xml.asc
+/classes
+/checkouts
+clojure/target
+clojure/resources
+*.jar
+*.class
+clojure/.lein-*
+clojure/.nrepl-port

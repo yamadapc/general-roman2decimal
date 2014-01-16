@@ -17,6 +17,7 @@
       (let [n (nth decimal i)
             nxt-i (+ i 1)
             nxt (nth decimal nxt-i 0)]
+
         (if (> nxt n)
           (iter (- acc n) decimal nxt-i)
           (iter (+ acc n) decimal nxt-i)))))
