@@ -25,7 +25,7 @@ romanAlgToDecimal c = case c of
 
 romanToDecimal :: RomanNum -> Int
 romanToDecimal = loop 0 . map romanAlgToDecimal
-  where loop m (x:y:ys) | x < y = loop (m - x) (y:ys)
+  where loop m (x:xs@(y:_)) | x < y = loop (m - x) xs
         loop m (y:ys)   = loop (m + y) ys
         loop m []       = m
 
